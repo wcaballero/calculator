@@ -1,0 +1,105 @@
+body{
+ 		background: beige;
+ 		background: -webkit-linear-gradient(top, #f1e767 100%,#feb645 100%,#f1e767 101%);
+ 	}
+ 	#name{
+ 		text-align: center;
+ 		font-size: 20px;
+ 		font-weight: bold;
+ 		color: black;
+ 		padding-bottom: 5px;
+ 	}
+ 	#calculator{
+ 		border: 3px solid black;
+ 		width: 370px;
+ 		height: 510px;
+ 		margin: 10px auto;
+ 		padding: 5px;
+ 		background-color: #97d0df;
+ 		background: -webkit-linear-gradient(top, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);
+ 		border-radius: 10px;
+ 		box-shadow:2px 5px 8px 3px rgba(40, 40, 40, 0.8);
+ 	}
+ 	a:link, a:hover, a:visited, a:active, a{
+ 		text-decoration: none;
+ 		cursor: pointer;
+    color: black;
+ 	}
+ 	#display1{
+ 		height: 25px;
+ 		width:355px;
+ 		border: 2px solid black;
+ 		margin: 0;
+ 		margin-bottom: 1px;
+ 		padding-right: 10px;
+ 		background-color: #dddeae;
+ 		text-align: right;
+ 		font-size: 15px;
+ 	}
+ 	#display2{
+ 		height: 50px;
+ 		width:355px;
+ 		border: 2px solid black;
+ 		margin: 0;
+ 		margin-bottom: 5px;
+ 		padding-right: 5px;
+ 		background-color: white;
+ 		text-align: right;
+ 		font-size: 30px;
+ 	}
+ 	#top button{
+ 		outline: none;
+ 		width: 65px;
+ 		height: 65px;
+ 		border: 2px solid black;
+ 		float: left;
+ 		text-align: center;
+ 		margin: 5px 10px;
+ 		font-size: 30px;
+ 		border-radius: 10px;
+ 		padding: 10px;
+ 		background-color: white;
+ 	}
+ 	#top .clear, #top .clearAll{
+ 		background-color: #ee4040;
+ 	}
+ 	#numbers{
+ 		float: left;
+ 		width: 260px;
+
+ 	}
+ 	#operators{
+ 		float: left;
+ 		width: 90px;
+
+ 	}
+ 	#top{
+ 		float: left;
+ 		width: 370px;
+
+ 	}
+ 	#numbers button, #operators button{
+ 		outline: none;
+ 		width: 65px;
+ 		height: 65px;
+ 		border: 2px solid black;
+ 		text-align: center;
+ 		margin: 5px 10px;
+ 		float: left;
+ 		background-color: white;
+ 		font-size: 45px;
+ 		border-radius: 10px;
+ 	}
+
+ 	#cleared{
+ 		clear: both;
+ 	}
+ 	#numbers button:hover, #top button:hover, #operators button:hover{
+ 		background-color: #ced0a5;
+ 	}
+ 	#numbers button:active, #top button:active, #operators button:active{
+ 		background-color: olive;
+ 	}
+ 	#top #division{
+ 		margin-left: 15px;
+ 	}
