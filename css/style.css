@@ -47,7 +47,7 @@ body{
  		text-align: right;
  		font-size: 30px;
  	}
- 	#top button{
+ 	#top button, #numbers button, #operators button{
  		outline: none;
  		width: 65px;
  		height: 65px;
@@ -59,17 +59,18 @@ body{
  		border-radius: 10px;
  		padding: 10px;
  		background-color: white;
+    font-weight: bold;
  	}
  	#top .clear, #top .clearAll{
  		background-color: #ee4040;
  	}
  	#numbers{
- 		display: inline-block;
+ 		float: left;
  		width: 260px;
 
  	}
  	#operators{
- 		display: inline-block;
+ 		float: left;
  		width: 90px;
 
  	}
@@ -78,7 +79,7 @@ body{
  		width: 370px;
 
  	}
- 	#numbers button, #operators button{
+ 	/*#numbers button, #operators button{
  		outline: none;
  		width: 65px;
  		height: 65px;
@@ -89,7 +90,7 @@ body{
  		background-color: white;
  		font-size: 45px;
  		border-radius: 10px;
- 	}
+ 	}*/
 
  	#cleared{
  		clear: both;
