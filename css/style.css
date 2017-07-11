@@ -64,12 +64,12 @@ body{
  		background-color: #ee4040;
  	}
  	#numbers{
- 		float: left;
+ 		display: inline-block;
  		width: 260px;
 
  	}
  	#operators{
- 		float: left;
+ 		display: inline-block;
  		width: 90px;
 
  	}
